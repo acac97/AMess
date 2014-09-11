@@ -1,0 +1,45 @@
+<resources>
+
+    <style
+        name="AppTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+
+    <style
+        name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">#ffff7d00</item>
+        <item name="android:textColor" >#ffffff</item>
+
+    </style>
+
+    <style name="ButtonStyle" >
+
+        <item name="android:background" >#ffff7d00</item>
+        <item name="android:textColor" >#ffffff</item>
+
+    </style>
+
+    <style name="TitleText" >
+
+        <item name="android:textColor" >#ff33b5e5</item>
+
+    </style>
+
+    <style name="ViewStyle" >
+
+        <item name="android:background" >#ff33b5e5</item>
+
+    </style>
+
+    <style name="BarStyle" parent="@android:style/Theme.Holo" >
+
+        <item name="android:background">#ffff7d00</item>
+
+    </style>
+
+</resources>

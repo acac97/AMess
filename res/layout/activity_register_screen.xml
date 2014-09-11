@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ainc.amess.RegisterScreen" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+	        
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Create new AMess account."
+		        android:textSize="17sp" />
+		
+		    <Space
+		        android:layout_height="15dp"
+		        android:layout_width="match_parent" />
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:text="ESSENTAL"
+		        style="@style/TitleText"/>
+		
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        style="@style/ViewStyle" />
+		
+		    <Space
+		        android:layout_height="10dp"
+		        android:layout_width="match_parent" />
+		
+		    <EditText
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textPersonName"
+		        android:hint="Username"
+		        android:id="@+id/etRegisterUsername" />
+		
+		    <Space
+		        android:layout_height="10dp"
+		        android:layout_width="match_parent" />
+		
+		    <EditText
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textPassword"
+		        android:hint="Password"
+		        android:id="@+id/etRegisterPassword" />
+		
+		    <Space
+		        android:layout_height="10dp"
+		        android:layout_width="match_parent" />
+		
+		    <EditText
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textPassword"
+		        android:hint="Confirm password"
+		        android:id="@+id/etRegisterConfirm" />
+		
+		    <Space
+		        android:layout_height="10dp"
+		        android:layout_width="match_parent" />
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:text="OPTIONAL"
+		        style="@style/TitleText"/>
+		
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        style="@style/ViewStyle" />
+		
+		    <Space
+		        android:layout_height="10dp"
+		        android:layout_width="match_parent" />
+		
+		    <EditText
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textPersonName"
+		        android:hint="Organization"
+		        android:id="@+id/etRegisterOrg" />
+		
+		    <Space
+		        android:layout_height="10dp"
+		        android:layout_width="match_parent" />
+		
+		    <EditText
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textEmailAddress"
+		        android:hint="Email"
+		        android:id="@+id/etRegisterEmail" />
+		
+		    <Space
+		        android:layout_height="10dp"
+		        android:layout_width="match_parent" />
+		
+		    <EditText
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="phone"
+		        android:hint="Phone number"
+		        android:id="@+id/etRegisterPhone" />
+	    
+	    </LinearLayout>
+	    
+    </ScrollView>
+
+</LinearLayout>
+
